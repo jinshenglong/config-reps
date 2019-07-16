@@ -1,6 +1,6 @@
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
 
 server:
@@ -12,7 +12,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: !QAZ2wsx
+    password: root
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -28,7 +28,7 @@ spring:
 
   rabbitmq:
     host: 127.0.0.1
-    port: 5672
+    port: 15672
     username: guest
     password: guest
   http:
