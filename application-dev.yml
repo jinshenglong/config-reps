@@ -30,7 +30,7 @@ spring:
     host: 127.0.0.1
     port: 5672
     username: rabbitUser
-    password: 123456
+    password: 1234561
   http:
     multipart:
       max-file-size: 1000MB
